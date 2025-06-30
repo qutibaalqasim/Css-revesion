@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -56,4 +59,51 @@ body{
 
 .nav-1 a:hover::after{
     transform: scaleX(1);
+}
+
+.nav-2{
+    background-color: #343a40;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-2 li{
+    margin-bottom: 12px;
+}
+
+.nav-2 a{
+    text-decoration: none;
+    color: #f8f9fa;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-2 a:hover{
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.nav-2 .login-btn{
+    background-color: #3d2ec2;
+    color: white;
+    padding: 10px 15px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+.nav-2 .login-btn:hover{
+    background-color: #1e1a32;
 }
