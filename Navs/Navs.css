@@ -30,6 +30,7 @@ body{
   /* background-color: rgb(232, 167, 48); */
   padding: 5px 10px;
   border-radius: 5px;
+  position: relative;
 }
 
 .nav-1 .login-btn{
@@ -41,7 +42,18 @@ body{
     cursor: pointer;
 }
 
-.nav-1 a:hover{
-    background-color: #fff;
-    color: black;
+.nav-1 a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    transform: scaleX(0);
+    background-color: #3d2ec2;
+    transition: transform 0.3s ease;
+}
+
+.nav-1 a:hover::after{
+    transform: scaleX(1);
 }
