@@ -1,0 +1,13 @@
+.boring-text::before{
+    content: "<- Boring";
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.exciting-text::after{
+    content: "Exciting! ->";
+    color: green;
+    font-size: large;
+    font-weight: bold;
+}
