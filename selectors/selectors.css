@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.highlight{
+    background-color: chartreuse;
+    width: 20%;
+}
+#header{
+    background-color: #3d2ec2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
