@@ -128,8 +128,14 @@ body{
 .nav-3 a{
     text-decoration: none;
     color: #f8f9fa;
-    padding: 10px 15px;
+    padding: 10px 25px;
     display: block;
+}
+
+.nav-3 a:hover{
+    background-color: rgb(247, 99, 158);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .nav-3 .dropdown-content{
@@ -140,4 +146,31 @@ body{
     display: block;
     position: absolute;
     background-color: rgb(121, 66, 88);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.nav-3 .dropdown-content a{
+    padding: 12px 16px;
+    color: #f8f9fa;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-3 .dropdown-content a:hover{
+    background-color: rgb(94, 51, 68);
+}
+
+.nav-3 .login-btn{
+    background-color: #3d2ec2;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-3 .login-btn:hover{
+    background-color: #1e1a32;
 }
