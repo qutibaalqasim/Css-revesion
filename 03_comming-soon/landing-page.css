@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    height: 630px;
+}
+.logo{
+    border:none;
+    border-radius: 50%;
+}
+h1{
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 800 ;
+}
+p{
+    color: #666;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="email"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type="email"]:focus{
+    border-color: #8a2be2;
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+    outline: none;
+}
+
+button{
+    width: 50%;
+    padding: 10px 10px;
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     box-shadow: 0 4px 6px rgba(0, 0,
+    0, 0.2);
+     transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
+}
+
+button:hover{
+    width: 100%;
+    background-color: #EC710A;
+}
