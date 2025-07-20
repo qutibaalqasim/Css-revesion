@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1,h2{
+    text-align: center;
+    color: #333;
+}
+.container{
+    background-color: #fff;
+    border: 2px solid #060606;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+}
+.box{
+    background-color: rgb(85, 85, 205);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.box:nth-child(even){
+    background-color: #cd4040;
+}
