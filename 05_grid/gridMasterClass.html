@@ -71,5 +71,19 @@
         style="grid-column: 2/4;">5</div>
       </div>
     </div>
+
+     <div class="container">
+      <h2>5. Grid Template Area</h2>
+      <div class="grid-container"
+      style="grid-template-areas: 'header header header'
+                 'sidebar main main'
+                 'footer footer footer';"
+      >
+        <div class="box" style="grid-area: header;">Header</div>
+        <div class="box" style="grid-area: sidebar;">Sidebar</div>
+        <div class="box" style="grid-area: main;">MainContent</div>
+        <div class="box" style="grid-area: footer;">Footer</div>
+      </div>
+    </div>
   </body>
 </html>
