@@ -18,8 +18,21 @@ body{
 }
 
 @media (max-width: 600px){
+    body{
+        align-items: flex-start;
+    }
     .responsive-div{
         background-color: #ffcccc;
+        color: #000;
+    }
+}
+
+@media (min-width:601px) and (max-width: 1024px){
+    body{
+        align-items: center;
+    }
+    .responsive-div{
+        background-color: #ccffcc;
         color: #000;
     }
 }
