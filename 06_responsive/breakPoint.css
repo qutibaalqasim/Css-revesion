@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a5b;
+}
+.responsive-div{
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #1a1a1a5b;
+}
+
+@media (max-width: 600px){
+    .responsive-div{
+        background-color: #ffcccc;
+        color: #000;
+    }
+}
+
